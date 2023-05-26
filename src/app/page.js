@@ -1,10 +1,29 @@
+import Intro from "@/components/Intro";
+import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        Home Page
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>HPCstone</title>
+        <meta name="description" content="خرید سریع و مطمئن و ارزان مرغوب ترین سنگ های قروه" />
+      </Head>
+      <main className="">
+        <div>
+          <Intro />
+          <Services />
+          <Testimonials/>
+        </div>
+      </main>
+    </>
   )
 }
+
+// export const getStaticProps = () => {
+//   const services = data;
+//   return {
+//     props: {services},
+//   };
+// };
