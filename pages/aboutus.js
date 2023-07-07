@@ -9,13 +9,13 @@ import SlideShow from "@/components/SlideShow";
 export default function About() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>HPCstone</title>
         <meta
           name="description"
           content="خرید سریع و مطمئن و ارزان مرغوب ترین سنگ های قروه"
         />
-      </Head>
+      </Head> */}
       <RootLayout>
         <div className="overflow-hidden relative h-screen flex flex-col justify-center items-center">
           <Circle

@@ -6,10 +6,10 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>HPCstone</title>
         <meta name="description" content="خرید سریع و مطمئن و ارزان مرغوب ترین سنگ های قروه" />
-      </Head>
+      </Head> */}
       <main className="">
         <div>
           <Intro />
