@@ -30,7 +30,7 @@ const Intro = () => {
             </div>
         </div>
         <div className='flex-1 p-24 pr-0 relative h-[75%]'>
-            <Image src="/img/top-view-boards-mdf-material.jpg" fill style="cover" className='w-fit rounded-es-full z-[100]' alt='img' />
+            <Image src="/top-view-boards-mdf-material.jpg" fill style="cover" className='w-fit rounded-es-full z-[100]' alt='img' />
             {/* <Circle
                 backgroundColor="#01c686"
                 right="-40vh"

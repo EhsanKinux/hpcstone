@@ -20,7 +20,7 @@ const Testimonials = () => {
       <div className="wrapper flex flex-wrap justify-around items-center">
         {users.map((user) => (
           <div key={user.id} className="card w-2/5">
-            <Image src={`/img/${user.logo}`} width="30" height="30" alt="" />
+            <Image src={`/${user.logo}`} width="30" height="30" alt="" />
             <p className="comment text-xl font-light">{user.comment}</p>
             <div className="person flex items-center">
               <Image
