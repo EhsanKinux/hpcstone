@@ -19,7 +19,7 @@ const Services = () => {
               <div className={`w-[80%] h-[80%] rounded-[50%] overflow-hidden ${styles.media}`}>
                 {data.video ? (
                   <video 
-                    src={`/img/${data.video}`} 
+                    src={`${data.video}`} 
                     autoPlay
                     muted 
                     loop 
@@ -27,7 +27,7 @@ const Services = () => {
                   />
                 ) : (
                   <img 
-                    src={`/img/${data.photo}`} 
+                    src={`${data.photo}`} 
                     alt='' 
                     className='object-cover w-full h-full'
                   />
